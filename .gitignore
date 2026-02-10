@@ -1,0 +1,68 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+pip-wheel-metadata/
+*.log
+venv/
+.env/
+.venv/
+env/
+ENV/
+# Virtual environment files
+**/lib/
+**/bin/
+**/pyvenv.cfg
+mood_tracker_backend/lib/
+mood_tracker_backend/bin/
+mood_tracker_backend/pyvenv.cfg
+
+# Node.js / Frontend
+node_modules/
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# Next.js
+/.next/
+**/.next/
+/out/
+next-env.d.ts
+
+# Testing
+/coverage
+
+# Environment & secrets
+.env*
+.envrc
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# TypeScript
+*.tsbuildinfo
+
+# Vercel
+.vercel
